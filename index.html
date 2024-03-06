@@ -166,37 +166,31 @@
 </div>
 <div id="Experience" style="display: flex;justify-content: center;align-items: center;padding: 30px;position: relative;">
   <h2 style="position: absolute;top: 7px;color: white;">Experience</h2>
-<table>
+  <div class="exp-container">
  
-    <tr>
-      <th style="border-top:1px solid rgba(255, 251, 0, 0.2);
-      "><div class="Commitee1"><h3>TSDW</h3>
+   <div class="Commitee1"><h3>TSDW</h3>
       <ul>
         <li>Helped design components for Hackanova website</li>
         <li>Volunteered Hackanova</li>
       </ul>  
     
-    </div></th>
-      <th style="border-top:1px solid rgba(53, 255, 255, 0.2);
-      "><div class="Commitee1"><h3>Nirmaan Hyperloop</h3>
+    </div>
+      <div class="Commitee1"><h3>Nirmaan Hyperloop</h3>
       <ul>
       <li>Designed UI/UX designs </li>
       <li>Created canva designs for promotions</li>
     </ul>
-  </div></th>
-    </tr>
-    <tr>
-      <th style="border-top:1px solid rgba(198, 53, 255, 0.2);
-      "><div class="Commitee1"><h3>Multicon Winner</h3>
+  </div>
+  
+   <div class="Commitee1"><h3>Multicon Winner</h3>
       <ul>
         <li>Presented Research Paper and Poster on "Smart Contacts"</li>
         <li>Won 2nd prize for the poster</li>
       </ul>
-      </div></th>
-    </tr>
+      </div>
    
 
-</table>
+    </div>
 </div>
 <div id="Contact">
   <div class="contactContainer" >
@@ -249,6 +243,8 @@
 
   cross.addEventListener("click", () => {
       bar.style.display = 'none';
+      bar.style.transition = '1.5s ease';
+      bar.style.transform = 'translate(5px)';
   });
 
   barslide.addEventListener("click", () => {
