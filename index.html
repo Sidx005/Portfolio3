@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth Desai</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="icon" type="image/x-icon"  href="Untitled_design__13_-removebg-preview.png">
+    <link rel="stylesheet" href="style2.css">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+
+<body onload="myfunction()" >
+
+  <button id="robot" style="position: fixed;border-radius: 5px;border: none;height: 30px;width: 30px;right: 2px;bottom: 5px;background-color: rgb(0, 255, 157);">
+  <a href="bot.html"><i class="fa fa-robot" style="color:white"></i></a>
+  </button>
+  
+    <div class="container">
+      <div class="loader">
+
+</div>
+  <div class="bar">
+    <nav style="color: white;padding: 10px;" class="nav1">
+        <ul>
+            <h2 style="position: absolute;left: 0;top: 0; text-shadow: 0 3px 0 red;">Sid.</h2>
+            <li class="hide">
+              <input type="range" name="" id="" min="0" max="100" onchange="brightness(this)">
+            </li>
+            <li class="hide"><a href="#Home">Home</a></li>
+            <li class="hide"><a href="#About">About</a></li>
+            <li class="hide"><a href="#Projects">Projects</a></li>
+            <li class="hide"><a href="#UI">UI/UX</a></li>
+            <li class="hide"><a href="#Skills">Skills</a></li> 
+            <li class="hide"><a href="#Experience">Experience</a></li>
+
+            <li class="hide"><a href="#Contact">Contact Me</a></li>
+            <i class="fas fa-bars" id="bars"></i>
+        </ul>
+        
+    </nav>
+  
+  </div> 
+<div class="nav-2" style="position: fixed;left: 0;bottom: 30px;background-color: rgb(255 255 255 / 30%);">
+  <ul>
+  <li class="nav2links"><i class="fas fa-x"></i></li>
+        <li class="nav2links"><a href="#Home">Home</a></li>
+        <li class="nav2links"><a href="#About">About </a></li>
+        <li class="nav2links"><a href="#Projects">Projects</a></li>
+        <li class="nav2links"><a href="#UI">UI/UX </a></li>
+        <li class="nav2links"><a href="#Experience">Experience</a></li>
+        <li class="nav2links"><a href="#Contact">Contact Me</a></li>
+
+        </ul>
+</div>
+    <br>
+    <div id="Home" >
+        <div class="textpara" style="color: white;padding: 55px;">
+            <h1  >Welcome to my <p>website!!</p></h1><br>
+            <button id="explore">Explore more</button>
+            <button id="Resume"><a href="Resume-Updated.pdf" download style="text-decoration: none; color: #fff;">Resume</a></button>
+      <div class="media-box">
+            <div class="media" style="flex-direction: column;  background-color: rgb(255 255 255 / 30%);
+            width: 100px;
+            backdrop-filter: blur(10px);padding: 5px;display: none;border-radius: 12px">
+<p style="width: 100%;display: flex;"> 
+              <i class="fa-brands fa-linkedin" style="font-size: 8px;margin-right: 5px;"></i><a href="" style="font-size: 6px;color: white;text-decoration: none;">LinkedIn</a>
+          <button style="margin-left: 50%;margin-top: 2px;font-size: 5px;" id="arrow"><i class="fa fa-arrow-down"  onclick="addDiv()"></i>
+          
+           </button>
+            </p>   
+            <div class="list" style="width: 100%;">
+              <hr style="width: 100%;">
+            <ul>
+              <li><a href="https://www.linkedin.com/in/siddharth-prabhudesai-895709254/"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+              <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i>Instagram</a></li>
+              <li><a href=""><i class="fab fa-facebook"></i>Facebook</a></li>
+            </ul>   
+</div>
+</div>
+</div>
+          </div>
+        <div class="photocontainer">
+        <div class="photo" >
+        
+        </div>
+        <div class="photo2" >
+            <img src="IMG20210401122835.jpg" alt=""  style="border-radius: 50%;height: 100%;width: 100%;">
+
+        
+        </div>
+        
+        </div>
+    </div>
+<div id="About" style="width: 100%;padding: 50px;background-color: transparent;color: white;gap: 5px;">   
+  <div class="description">
+    <p id="describe"><h2>I'm Siddharth Prabhudesai</h2>An engineering student pursuing my B.E in Information Technology from TCET</p>
+  </div>
+  <div class="photodiv">
+
+  </div>
+</div>
+<div id="Projects" >
+  <h2 style="position: absolute;top: 5px;left: 5px;">MyProjects</h2>    
+<button id="left"><</button>
+<button id="right">></button>
+<div class="carousel">
+<div class="carousel_items"><div class="project1 p1">
+  <button style="padding: 15px;border-radius: 10px;width: 100px;background-color: purple;border:0;text-align: center;"><a href="https://electriccharging.netlify.app/" style="color: white;text-decoration: none;font-weight: bold;">Visit</a></button>
+</div></div>
+<div class=" carousel_items">
+  <div class="project1 p2" >
+    <button style="padding: 15px;border-radius: 10px;width: 100px;background-color: purple;border:0;text-align: center;"><a href="https://sidx005.github.io/wiki/" style="color: white;text-decoration: none;font-weight: bold;">Visit</a></button>
+
+</div>
+</div>
+<div class="carousel_items">
+  <div class="project1 p3">
+    <button style="padding: 15px;border-radius: 10px;width: 100px;background-color: purple;border:0;text-align: center;"><a href="https://siddharth-1301.github.io/Bhuvan3/" style="color: white;text-decoration: none;font-weight: bold;">Visit</a></button>
+
+  </div>
+</div>
+<div class="carousel_items">
+  <div class="project1 p4" >
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+<div id="UI">
+<h2>UI/UX designs</h2>
+<div class="swiper mySwiper" id="swiper1">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"  id="Slide1" ><img src="Screenshot 2023-12-09 232909.png" alt=""></div>
+    <div class="swiper-slide"><img src="design.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="nike.jpeg" alt=""></div>
+    <div class="swiper-slide">Slide 4</div>
+
+  </div>
+  <div class="swiper-pagination" style="width: 200px;position: absolute;left: 50%;transform: translateX(-50%);color: white;" ></div>
+</div>
+
+</div>
+<div id="Skills" style="width: 100%;padding: 70px;background: #fff;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+
+<h1>Skills</h1>
+  <marquee behavior="" direction="right" scrollamount="15"> 
+   <div class="skillbox" >
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5pkWuabvm__KC0VY5a2jgFozzCtLdk2bbCC3hxE-GUQ&s" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXTgqnGHuepvHRsLaItmjPDkwYzMbK2-7OTh4z0qGpPA&s" alt="">
+      <img src="https://s3-alpha.figma.com/hub/file/697598809/ce5e0bb3-16b9-4d88-9bca-7d237fe725a8-cover.png" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeC4Vy8Js_W3uRzhEWRiapBf83Z-kyzTQ3zy-WqQxDJQ&s" alt="">
+       <img src="https://cdn.dribbble.com/users/66221/screenshots/1655593/media/63d9b0acd7e81cde54f291bdcf8a24df.png?resize=400x300&vertical=center" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToGH1daz2cNiKp6rcqlunawogg8hai2wZqDQ&usqp=CAU" alt="">
+    
+      </div>
+</marquee>
+
+</div>
+<div id="Experience" style="display: flex;justify-content: center;align-items: center;padding: 30px;position: relative;">
+  <h2 style="position: absolute;top: 7px;color: white;">Experience</h2>
+<table>
+ 
+    <tr>
+      <th style="border-top:1px solid rgba(255, 251, 0, 0.2);
+      "><div class="Commitee1"><h3>TSDW</h3>
+      <ul>
+        <li>Helped design components for Hackanova website</li>
+        <li>Volunteered Hackanova</li>
+      </ul>  
+    
+    </div></th>
+      <th style="border-top:1px solid rgba(53, 255, 255, 0.2);
+      "><div class="Commitee1"><h3>Nirmaan Hyperloop</h3>
+      <ul>
+      <li>Designed UI/UX designs </li>
+      <li>Created canva designs for promotions</li>
+    </ul>
+  </div></th>
+    </tr>
+    <tr>
+      <th style="border-top:1px solid rgba(198, 53, 255, 0.2);
+      "><div class="Commitee1"><h3>Multicon Winner</h3>
+      <ul>
+        <li>Presented Research Paper and Poster on "Smart Contacts"</li>
+        <li>Won 2nd prize for the poster</li>
+      </ul>
+      </div></th>
+    </tr>
+   
+
+</table>
+</div>
+<div id="Contact">
+  <div class="contactContainer" >
+  <h2>Contact Me</h2>
+  <div class="Form-container">
+ <input type="text"  placeholder="Your Name" id="name">
+ <input type="text" placeholder="E-mail" id="Mail">
+ <div class="message">
+  <textarea placeholder="Message" cols="30" rows="10"></textarea>
+ 
+ </div>
+ <button onclick="sendMessage()"  id="Submit" style="padding: 10px;border-radius: 5px;width: 100px;">Submit</button>
+  </div>
+  </div>
+  <script >
+   function sendMessage() {
+    (function() {
+      emailjs.init("pWuAR2_FdlGG6ne1Q");
+    })();
+    var serviceID="service_ii1srs4";
+    var templateID="template_5oqz3ir";
+    var params={
+        sendername:document.querySelector('#name').value,
+        sendermail:document.querySelector('#Mail').value,
+        sendermessage:document.querySelector('textarea').value,
+    };
+    emailjs.send(serviceID,templateID,params)
+    .then(res=>{
+        alert('Thank you,'+params['sendername']+'|Your message sent successfully');
+    })
+    .catch();
+}
+  </script>
+</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+
+
+<script src="script.js"></script>
+
+<script>
+  let cross = document.querySelector('.fa-x');
+  let bar = document.querySelector('.nav-2');
+  let barslide = document.querySelector('.fa-bars');
+  cross.style.cursor = 'pointer';
+  barslide.style.cursor = 'pointer';
+
+  cross.addEventListener("click", () => {
+      bar.style.display = 'none';
+  });
+
+  barslide.addEventListener("click", () => {
+      bar.style.display = 'flex';
+  });
+
+  const navLinks = document.querySelectorAll('nav ul li a');
+  navLinks.forEach(link => {
+      link.style.cursor = 'pointer';
+      link.addEventListener('click', () => {
+          const targetId = link.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+      });
+  });
+
+  const btn = document.querySelector('#explore');
+  btn.addEventListener("click", () => {
+      let media = document.querySelector('.media');
+
+      media.style.display = "flex";
+  });
+
+  function addDiv() {
+      let list = document.querySelector('.list');
+      if(list.style.display=="none"){
+        list.style.display="flex";
+
+      }
+      else{
+        list.style.display="none";
+
+      }
+      let arrowbtn = document.querySelector('#arrow');
+      arrowbtn.innerHTML = list.style.display === "none" ? `<i class="fa fa-arrow-down" onclick="addDiv()"></i>` : `<i class="fa fa-arrow-up" onclick="remove()"></i>`;
+  }
+
+  function remove() {
+      let list = document.querySelector('.list');
+      list.style.display = "none";
+      let arrowbtn = document.querySelector('#arrow');
+      arrowbtn.innerHTML = `<i class="fa fa-arrow-down" onclick="addDiv()"></i>`;
+  }
+ 
+ function myfunction() {
+    let preloader = document.querySelector('.loader');
+    preloader.style.display = 'none';
+}
+function brightness(e) {
+  var container=document.querySelector(".container");
+  var val=e.value;
+  container.setAttribute("style","filter:brightness("+val+"%);")
+  
+}
+
+</script>
+</body>
+
+
+
+</html>

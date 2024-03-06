@@ -1,0 +1,179 @@
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:ital,wght@1,500&display=swap');
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, rgb(26, 1, 26), rgb(30, 51, 30), black);
+   height: 100%;
+   width: 100%;
+  }
+  
+  .list {
+    display: flex;
+    gap: 2.5em;
+    list-style: none;
+    color: wheat;
+    padding-top: 0px;
+    padding-left: 50%;
+    cursor: pointer;
+  }
+  
+  .list li:hover {
+    text-decoration: underline 2px red;
+    color: blueviolet;
+  }
+  
+  .watch1 {
+    max-width: 100%;
+    height: 30vh;
+    /* background: yellow; */
+    text-align: center;
+    position: relative;
+    top: 6em;
+  }
+  
+  .watch {
+
+    position: relative; max-width: 100%; /* height: 20vh; */ padding-left: 25em; top: -6em; height: 80%;
+  }
+  
+  .title {
+    /* text-align: center; */
+    padding-left: 2em;
+    /* text-align: center; */
+    padding-left: -60em;
+    max-width: 100%;
+    position: relative;
+    padding-top: 3em;
+    left: -21em;
+  }
+  
+  .title h1,
+  .title h2 {
+    color: wheat;
+  }
+  .title h1{
+    font-size: 4em;
+    text-align: justify;
+    margin-left: 5em;
+  }
+  
+  .card-container {
+    padding-top: 20em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    /* padding-top: 2em; */
+   max-width: 100%;
+    height:30vh;
+    background: linear-gradient(blue, violet);
+    border-radius: 24px;
+    box-sizing: border-box;
+    margin: 20px;
+    cursor: pointer;
+  }
+  .title h2{
+  font-size: 2vw;
+  position: relative;
+  margin-left: 1em;
+  margin-top: 3em;}
+  
+  @media screen and (max-width: 1200px) {
+    .card {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .apex {
+      height: 70px;
+    }
+  
+    .nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .list {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      gap: 20px;
+      font-size: 20px;
+      padding-left: 4px;
+    }
+  
+    .watch {
+      max-width: 80%;
+    }
+  
+    .title h1,
+    .title h2 {
+      margin-top: 0;
+    }
+  
+    .card {
+      margin-top: 20px;
+      max-width: 100%;
+      border-radius: 5px;
+      height: 70vh;
+      flex-direction: column;
+    }
+    /* Your existing CSS styles */
+
+/* Adjusted styles for responsiveness */
+.watch1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Adjust as needed */
+    background: transparent;
+    position: relative;
+    top: 6em;
+  }
+  
+  .watch {
+    max-width: 100%;
+    height: 41vh;
+    width: auto;
+    padding-left: 15px;
+    position: relative;
+    top: 2em;
+  }
+  
+  .title {
+    text-align: center;
+    padding-left: -60em;
+    max-width: 100%;
+    position: relative;
+    padding-top: -11em;
+    left: 0em;
+    flex-direction: column;
+    display: flex;
+
+  }
+  .title h1 {
+    margin: 0em;
+    text-align: center;
+    }
+      /* ... Your remaining styles ... */
+  
+  }
