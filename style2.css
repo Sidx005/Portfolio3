@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins' ,sans-serif;
 scroll-behavior: smooth;
+transition: 0.5s;
 }
 .loader{
     width: 100%;
@@ -63,7 +64,6 @@ nav ul{
 .nav-2 a{
     text-decoration: none;
     color: white;
-
 }
 .bar{
     padding: 10px;
@@ -554,6 +554,7 @@ padding: 30px;
     .swiper-wrapper{
         gap: 45px;
     }
+ 
 }
 .swiper-slide{
     cursor: grabbing;
@@ -672,10 +673,7 @@ textarea{
     width: 200px;
 }
 }
-tr,th{
-    border: 1px solid ;
-    border-radius: 17px;
-}
+
 .Commitee1{
     height: 200px;
     padding: 15px;
@@ -688,6 +686,11 @@ tr,th{
     position: relative;
     width: 200px;
     text-align: center;
+    border-bottom:1px solid rgb(0, 1, 0,0.3);
+    border-top:1px solid rgb(33, 94, 94);
+    box-shadow: 1px 1px 2px 0 black;
+    background: linear-gradient(67deg,rgb(0, 0, 0),rgb(30, 71, 71),black);
+
 }
 .Commitee1 h3{
     position: absolute;
@@ -706,17 +709,28 @@ tr,th{
     gap: 15px;
 
 }
-
-table{
-border-spacing: 50px;}
-table tr{
-    padding: 7px;
+.exp-container{
+    display: grid;
+    grid-template-columns: 300px 300px  ;
+    grid-template-rows: 305px;
+    padding: 50px;
+    background-color:transparent;
+    margin-top: 20px;
+    gap: 5px;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+   
 }
-table th{
-padding: 5px;
-border-right: 0.5px solid rgba(0, 0, 1, 0.1);
-border-left: 0.5px solid rgba(0, 0, 1, 0.1);
-border-bottom: rgba(97, 87, 87, 0.2) 1px solid;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-background: linear-gradient(65deg, rgb(4, 4, 15), rgb(61, 46, 46),#031011  );
+@media(max-width:790px){
+    .exp-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+#Experience{
+    background:transparent;
 }
