@@ -464,9 +464,9 @@ display: block;
     background-size: cover;
 
  }
-.p4{
-      background:url('Screenshot/2024-12-05/095940.png')center no-repeat;
-    background-size: cover;  
+.p4 {
+    background: url(Screenshot 2024-12-05 095940.png) center no-repeat;
+    background-size: cover;
 }
 
 .p5 {
